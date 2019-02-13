@@ -1,0 +1,16 @@
+{
+  "manifest_version" : 2,
+  "name" : "ShowTime",
+  "description" : "Extension to show the current time and date",
+  "version" : "1.2",
+  "browser_action" : {
+    "default_title" : "ShowTime",
+    "default_icon" : "icon.png", //Used as the icon in the Chrome toolbar
+    "default_popup" : "popup.html"
+  },
+  "icons" : {
+    "16" : "icon16.png", //Used as the favicon for an extension's pages
+    "48" : "icon48.png", //Used on the extension management page
+    "128" : "icon128.png" //Used during installation & in the Chrome Web Store
+  }
+}
