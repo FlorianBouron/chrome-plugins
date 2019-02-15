@@ -1,0 +1,11 @@
+{
+	"manifest_version" : 2,
+	"name" : "HelloBrowserAction",
+	"description" : "Extension to demonstrate a Browser-Action",
+	"version" : "1.2",
+	"browser_action" : {
+		"default_title" : "HelloBrowserAction",
+		"default_icon" : "icon.png",
+		"default_popup" : "popup.html"
+	}
+}
